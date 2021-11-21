@@ -20,12 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-_5eo-bc#_^@4360w$d3nn6xl39&3dzvksny)hw3pz8@o8dccvl'
+SECRET_KEY = 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['digitalarena23.com', 'www.digitalarena23.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -78,8 +78,8 @@ WSGI_APPLICATION = 'digitalarena23.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'digitalarena',
-        'USER': 'root',
+        'NAME': '',
+        'USER': '',
         'PORT': '3306',
         'HOST': 'localhost',
         'PASSWORD': '',
